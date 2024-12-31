@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 
 # Load the Excel file
-df = pd.read_excel('/Users/pythondaddy/Desktop/trading_app/options_data.xlsx')  # Ensure this path is correct
+df = pd.read_excel('options_data.xlsx')
 
 # Streamlit app
 st.title("Market Breakout Options Trading Dashboard")
